@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    
+    "AzureFunctionsJobHost__python__fileName": "function_app.py",
+    
+    "BACKUP_STORAGE_ACCOUNT_URL": "https://<your-storage-account-name>.blob.core.windows.net",
+    "BACKUP_CONTAINER_NAME": "logicapps-backup",
+    "ARM_API_VERSION": "2025-03-01",
+    "USE_PRIVATELINK_FOR_SCM": "false",
+    "RETRY_MAX": "3",
+    "RETRY_BACKOFF_SEC": "1.5",
+    "SUBSCRIPTION_ID": "<your-azure-subscription-id>",
+    "RESOURCE_GROUP_NAME": "<your-logic-apps-resource-group-name>",
+    "LOGICAPP_SITE_NAME": "<your-logic-app-service-name>"
+  }
+}
+
